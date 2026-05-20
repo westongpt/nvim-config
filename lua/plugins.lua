@@ -7,6 +7,8 @@ vim.pack.add({
 	"https://github.com/folke/which-key.nvim",
 	"https://github.com/nvim-mini/mini.icons",
 	"https://github.com/NeogitOrg/neogit",
+	"https://github.com/neovim/nvim-lspconfig",
+	"https://github.com/MeanderingProgrammer/render-markdown.nvim",
 })
 
 require("plugins.telescope")

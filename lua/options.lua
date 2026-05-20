@@ -1,3 +1,15 @@
 vim.opt.number = true
 vim.opt.relativenumber = true
 vim.opt.tabstop = 4
+vim.opt.shiftwidth = 4
+vim.opt.softtabstop = 4
+vim.opt.cursorline = true
+vim.opt.scrolloff = 8
+vim.opt.whichwrap = "b,s,<,>,[,]"
+vim.opt.smartindent = true
+vim.opt.autoindent = true
+vim.opt.ignorecase = true
+vim.opt.termguicolors = true
+vim.opt.winblend = 10
+vim.opt.pumblend = 1
+vim.opt.clipboard = "unnamedplus"
