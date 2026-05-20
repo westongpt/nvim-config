@@ -1,5 +1,5 @@
 vim.g.mapleader = " "
 
-require "options"
-require "plugins"
-require "bindings"
+require("options")
+require("plugins")
+require("bindings")
