@@ -10,7 +10,9 @@ vim.pack.add({
 	"https://github.com/neovim/nvim-lspconfig",
 	"https://github.com/MeanderingProgrammer/render-markdown.nvim",
 	"https://github.com/akinsho/bufferline.nvim",
-	"https://github.com/numToStr/Comment.nvim"
+	"https://github.com/numToStr/Comment.nvim",
+	"https://github.com/stevearc/oil.nvim",
+	"https://github.com/j-morano/buffer_manager.nvim",
 })
 
 require("plugins.mini-move")
@@ -19,3 +21,4 @@ require("plugins.lualine")
 require("plugins.catppuccin")
 require("plugins.bufferline")
 require("plugins.comment")
+require("plugins.oil")
