@@ -13,7 +13,7 @@ vim.opt.winblend = 10
 vim.opt.pumblend = 1
 vim.opt.fillchars = { eob = " " }
 vim.opt.clipboard = "unnamedplus"
-
+vim.opt.winborder = 'rounded'
 vim.opt.cursorline = true
 vim.api.nvim_set_hl(0, "CursorLineNr", { fg = "#ffffff", bold = true })
 

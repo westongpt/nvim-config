@@ -16,9 +16,10 @@ vim.pack.add({
 })
 
 require("plugins.mini-move")
+require("plugins.mini-icons")
 require("plugins.telescope")
-require("plugins.lualine")
 require("plugins.catppuccin")
+require("plugins.lualine")
 require("plugins.bufferline")
 require("plugins.comment")
 require("plugins.oil")

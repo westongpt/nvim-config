@@ -1,1 +1,8 @@
-require("oil").setup()
+require("oil").setup({
+	columns = {
+		"icon",
+		-- "permissions",
+		-- "size",
+		-- "mtime",
+  },
+})
