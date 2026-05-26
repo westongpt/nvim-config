@@ -9,6 +9,8 @@ vim.keymap.set("n", "<leader>gg", "<cmd>Neogit<cr>", { desc = "NeoGIT" })
 vim.keymap.set("n", "<leader>/", "gcc", { remap = true, desc = "Toggle comment" })
 vim.keymap.set("v", "<leader>/", "gc", { remap = true, desc = "Toggle comment" })
 vim.keymap.set("n", "-", "<CMD>Oil<CR>", { desc = "Open parent directory" })
+vim.keymap.set("n", "<leader>z", "<CMD>ZenMode<CR>", { desc = "Toggle Zen Mode" })
+vim.keymap.set("n", "<leader>a", "<cmd>AerialToggle!<CR>", { desc = "Toggle Aerial" })
 
 -- Window Stuff
 vim.keymap.set("n", "<leader>|", "<cmd>vsplit<CR>", { desc = "Vertical Split" })

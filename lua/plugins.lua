@@ -13,6 +13,8 @@ vim.pack.add({
 	"https://github.com/numToStr/Comment.nvim",
 	"https://github.com/stevearc/oil.nvim",
 	"https://github.com/j-morano/buffer_manager.nvim",
+	"https://github.com/folke/zen-mode.nvim",
+	"https://github.com/stevearc/aerial.nvim",
 })
 
 require("plugins.mini-move")
@@ -23,3 +25,4 @@ require("plugins.lualine")
 require("plugins.bufferline")
 require("plugins.comment")
 require("plugins.oil")
+require("plugins.aerial")
