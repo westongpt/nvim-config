@@ -25,3 +25,11 @@ vim.keymap.set("n", "<leader>bk", "<cmd>bd<cr>", { desc = "Kill Buffer" })
 
 -- Markdown
 vim.keymap.set("n", "t", "<cmd>MDTaskToggle<cr>", { desc = "Toggle Checkbox" })
+
+-- Show line diagnostics in a floating window (Normal mode)
+vim.keymap.set('n', '<space>e', vim.diagnostic.open_float, { desc = 'Show line diagnostics' })
+
+-- Navigate through issues and automatically show them
+vim.keymap.set('n', '[d', vim.diagnostic.goto_prev, { desc = 'Go to previous diagnostic' })
+vim.keymap.set('n', ']d', vim.diagnostic.goto_next, { desc = 'Go to next diagnostic' })
+
