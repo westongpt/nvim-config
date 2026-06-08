@@ -9,6 +9,7 @@ vim.pack.add({
 	"https://github.com/NeogitOrg/neogit",
 	"https://github.com/neovim/nvim-lspconfig",
 	"https://github.com/MeanderingProgrammer/render-markdown.nvim",
+	"https://github.com/tadmccorkle/markdown.nvim",
 	"https://github.com/akinsho/bufferline.nvim",
 	"https://github.com/numToStr/Comment.nvim",
 	"https://github.com/stevearc/oil.nvim",
@@ -27,3 +28,4 @@ require("plugins.comment")
 require("plugins.oil")
 require("plugins.aerial")
 require("plugins.render-markdown")
+require("plugins.markdown")
