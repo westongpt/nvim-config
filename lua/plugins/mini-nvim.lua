@@ -1,0 +1,5 @@
+require("mini.icons").setup({})
+require("mini.pairs").setup({})
+require("mini.move").setup({})
+require("mini.starter").setup({})
+require("mini.git").setup({})

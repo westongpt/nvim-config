@@ -1,16 +1,14 @@
 vim.pack.add({
-	"https://github.com/nvim-mini/mini.move",
 	"https://github.com/nvim-lua/plenary.nvim",
 	"https://github.com/nvim-telescope/telescope.nvim",
 	"https://github.com/nvim-lualine/lualine.nvim",
+	"https://github.com/nvim-mini/mini.nvim",
 	"https://github.com/catppuccin/nvim",
 	"https://github.com/folke/which-key.nvim",
-	"https://github.com/nvim-mini/mini.icons",
 	"https://github.com/NeogitOrg/neogit",
 	"https://github.com/neovim/nvim-lspconfig",
 	"https://github.com/MeanderingProgrammer/render-markdown.nvim",
 	"https://github.com/tadmccorkle/markdown.nvim",
-	"https://github.com/akinsho/bufferline.nvim",
 	"https://github.com/numToStr/Comment.nvim",
 	"https://github.com/stevearc/oil.nvim",
 	"https://github.com/j-morano/buffer_manager.nvim",
@@ -18,12 +16,10 @@ vim.pack.add({
 	"https://github.com/stevearc/aerial.nvim",
 })
 
-require("plugins.mini-move")
-require("plugins.mini-icons")
+require("plugins.mini-nvim")
 require("plugins.telescope")
 require("plugins.catppuccin")
 require("plugins.lualine")
-require("plugins.bufferline")
 require("plugins.comment")
 require("plugins.oil")
 require("plugins.aerial")

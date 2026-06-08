@@ -3,6 +3,9 @@ require("render-markdown").setup({
         icons = { "", "", "", "", "", "" },
         position = 'inline',
     },
+	html = { enabled = false },
+	latex = { enabled = false },
+	yaml = { enabled = false },
     link = {
         hyperlink = "",
     },
