@@ -8,9 +8,17 @@ vim.keymap.set("n", "<leader>fg", t.git_files, { desc = "Find git" })
 vim.keymap.set("n", "<leader>gg", "<cmd>Neogit<cr>", { desc = "NeoGIT" })
 vim.keymap.set("n", "<leader>/", "gcc", { remap = true, desc = "Toggle comment" })
 vim.keymap.set("v", "<leader>/", "gc", { remap = true, desc = "Toggle comment" })
-vim.keymap.set("n", "-", "<CMD>Oil<cr>", { desc = "Open parent directory" })
-vim.keymap.set("n", "<leader>z", "<CMD>ZenMode<cr>", { desc = "Toggle Zen Mode" })
+vim.keymap.set("n", "-", "<cmd>Oil<cr>", { desc = "Open parent directory" })
+vim.keymap.set("n", "<leader>z", "<cmd>ZenMode<cr>", { desc = "Toggle Zen Mode" })
 vim.keymap.set("n", "<leader>a", "<cmd>AerialToggle!<cr>", { desc = "Toggle Aerial" })
+
+-- Toggle Line Numbers Binding
+-- Requires toggling both line numbers and relative line numbers.
+vim.keymap.set("n", "<leader>n", function()
+  local on = not vim.opt.number:get()
+  vim.opt.number = on
+  vim.opt.relativenumber = on
+end, { desc = "Toggle Line Numbers" })
 
 -- Window Stuff
 vim.keymap.set("n", "<leader>|", "<cmd>vsplit<cr>", { desc = "Vertical Split" })
@@ -22,9 +30,6 @@ vim.keymap.set("n", "=", b.toggle_quick_menu, { desc = "Buffer Manager" })
 vim.keymap.set("n", "<Tab>", "<cmd>bnext<cr>", { desc = "Next buffer" })
 vim.keymap.set("n", "<S-Tab>", "<cmd>bprev<cr>", { desc = "Prev buffer" })
 vim.keymap.set("n", "<leader>bk", "<cmd>bd<cr>", { desc = "Kill Buffer" })
-
--- Markdown
-vim.keymap.set("n", "t", "<cmd>MDTaskToggle<cr>", { desc = "Toggle Checkbox" })
 
 -- Show line diagnostics in a floating window (Normal mode)
 vim.keymap.set('n', '<space>e', vim.diagnostic.open_float, { desc = 'Show line diagnostics' })
