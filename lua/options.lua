@@ -4,6 +4,8 @@ vim.opt.whichwrap = "b,s,<,>,[,]"
 vim.opt.clipboard = "unnamedplus"
 vim.opt.autoread = true
 vim.opt.conceallevel = 2
+vim.opt.wrap = true
+vim.opt.linebreak = true
 
 -- Appearance
 vim.opt.number = true
