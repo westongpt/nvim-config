@@ -11,6 +11,7 @@ vim.keymap.set("v", "<leader>/", "gc", { remap = true, desc = "Toggle comment" }
 vim.keymap.set("n", "-", "<cmd>Oil<cr>", { desc = "Open parent directory" })
 vim.keymap.set("n", "<leader>z", "<cmd>ZenMode<cr>", { desc = "Toggle Zen Mode" })
 vim.keymap.set("n", "<leader>a", "<cmd>AerialToggle!<cr>", { desc = "Toggle Aerial" })
+vim.keymap.set("n", "<leader><esc>", "<cmd>nohlsearch<cr>", { desc = "Clear Highlights" })
 
 -- Toggle Line Numbers Binding
 -- Requires toggling both line numbers and relative line numbers.
